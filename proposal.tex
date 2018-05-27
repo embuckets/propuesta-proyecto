@@ -5,11 +5,11 @@
 Un agente de seguros es la persona física o moral autorizada por la Comisión Nacional de Seguros y Fianzas para realizar actividades de intermediación en la contratación de seguros o de fianzas. Las actividades de intermediación que pueden realizar los agentes consiste en el intercambio de propuestas, comercialización y asesoramiento para la contratación de seguros o fianzas, su conservación o modificación, renovación o cancelación. \cite{www:reg-agentes}
 
 A medida del aumento de clientes que asesora el agente el manejo de las pólizas se dificulta.
-El Control de Cartera para Agentes de Seguros facilita la gestión de cartera del agente de seguros.
+El Control de Cartera para Agentes de Seguros facilita esta tarea.
 
 \section*{Justificación}
 
-Los agentes de seguros no cuentan con un software libre para este aspecto del trabajo, por lo tanto, tienen que recurrir a sus propios métodos, dependiendo de las competencias para manejar la computadora. La mayoría utiliza hojas de calculo, otros con un sistema de archivos y el resto no tienen 
+Los agentes de seguros no cuentan con un software libre para este aspecto del trabajo, por lo tanto, tienen que recurrir a sus propios métodos. La mayoría utiliza hojas de calculo, otros un sistema de archivos y el resto no tienen 
 un proceso establecido.
 El Control de Cartera es un software libre que facilita la gestión de clientes, pólizas, cobranzas y renovaciones; lo cual tiene un impacto en la productividad del agente.
 
@@ -20,10 +20,16 @@ Facilitar y el control de cartera para agentes de seguros.
 
 \subsection*{Objetivos Específicos}
 \begin{enumerate}
-  \item Gestionar clientes. 
+  \item Gestionar clientes.
+  \subitem Agregar, modificar, borrar.
   \item Gestionar pólizas
+    \subitem Agregar, modificar, borrar.
   \item Gestionar cobranza.
+  \subitem Ver cobranza pendiente.
+  \subitem Actualizar cobranza.
   \item Gestionar renovaciones.
+  \subitem Ver renovaciones pendientes.
+  \subitem Actualizar renovaciones.
 \end{enumerate}
 
 \section*{Trabajos Relacionados}
@@ -40,8 +46,7 @@ Software para agencias de seguros basado en la nube. Permite administrar el fluj
 
 El sistema contribuye a tener el control sobre el estado de cada póliza, en especial, el seguimiento de cobros de las primas de seguros, el reclamo de la planilla a las empresas aseguradoras y la comunicación y seguimiento con aseguradoras y asegurados.
 
-
-\begin{table}[ht!]
+\begin{table}[H] %ht!
   \begin{tabular}{p{0.15\textwidth} p{0.4\textwidth} p{0.4\textwidth}}
     \toprule
     \textbf{{Referencia}} & \textbf{{Similitudes}} & \textbf{{Diferencias}} \\
@@ -77,94 +82,3 @@ Asesorestic – Software para Administración de pólizas de seguros &
   \caption{Comparación cualitativa de los trabajos relacionados con el proyecto propuesto.}
   \label{table:related}
 \end{table}
-
-\section*{Descripción Técnica o Metodología}
-
-En esta sección se establecerá la complejidad y viabilidad técnica del proyecto. Dependiendo de la naturaleza del proyecto de integración, esta sección puede redactarse como una Descripción Técnica o una Metodología. En el primer caso, se debe explicar la funcionalidad de los módulos o componentes que forman parte del proyecto especificando concretamente qué es lo que realiza cada uno de ellos (pero sin incluir los detalles de implementación). Es conveniente apoyarse en figuras (diagramas de bloques o de casos de uso) para mostrar los elementos o funcionalidad de las componentes o módulos, así como la interacción entre ellos. En el segundo caso, se redacta una serie de procedimientos ordenados, redactados como sustantivos, cuya realización conlleva al alcance de los objetivos específicos y, por consiguiente, al cumplimiento del objetivo general. 
-
-Se prefiere que esta sección sea una descripción técnica cuando, naturalmente, el sistema a desarrollarse pueda ser modelado con diagramas de bloques, por ejemplo, una aplicación móvil. Los bloques de los diagramas deben ser congruentes con los objetivos del proyecto, es decir, si en uno de los objetivos se plantea el diseño e implementación de un módulo A, la descripción técnica debe contener una subsección que explique el funcionamiento del módulo A. La Descripción Técnica no debe incluir actividades de los alumnos tales como: diseñar, analizar, implementar, probar, documentar, etc. No se deben describir las acciones para realizar cada módulo, se debe describir la funcionalidad de cada uno de ellos y cómo es que un módulo interactúa con otro.
-
-El autor redactará esta sección como una Metodología cuando su proyecto se resuelva a través de la resolución sistemática de una serie de procedimientos ordenados. Generalmente, las evaluaciones de rendimiento y el diseño de redes de computadoras se describen con más naturalidad como una metodología. Los pasos que el autor presente deben estar relacionados con los objetivos específicos y deben redactarse como sustantivos, por ejemplo, si el autor plantea un objetivo como ``Evaluar y reconfigurar del sistema de seguridad'', entonces, en la metodología quizás aparezcan los procedimientos ``Diseño de un banco de pruebas'', ``Evaluación del sistema de seguridad'', ``Análisis de resultados'' y ``Calibración del sistema de seguridad''. Resaltamos que el autor debe explicar la necesidad de cada uno de los procedimientos que presente en esta sección, los cuales deben presentarse como subsecciones de la Metodología.
-
-En caso de que se utilice una imagen para explicar este apartado, esta deberá estar referenciada en el texto, por ejemplo: ``El diagrama de componentes se muestra en la Figura~\ref{fig:usecase}''. Cada imagen colocada estará centrada y con una nota al pie de imagen con una descripción breve de lo que representa. Además, el tamaño de la imagen debe ser tal que se aprecie de manera clara el contenido, pero que no ocupe más de un cuarto de página. Asimismo, se indica enfáticamente que el autor debe usar imágenes originales. En caso de que la imagen sea tomada de otra fuente, se deben respetar los derechos de autor y las reglas de uso de la ilustración. Estas reglas aplican a cualquier imagen que se utilice a lo largo del escrito.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth]{use_case_restaurant_model}
-  \caption{\label{fig:usecase} Un diagrama UML de casos de uso. Fuente: Wikimedia. Autor: Kishorekumar 62.}
-\end{figure}
-
-\subsection*{Subtítulo de ejemplo (colocar el nombre del módulo o componente en caso de una Descripción Técnica)}
-
-\subsection*{Subtítulo de ejemplo (colocar la actividad como un sustantivo en caso de una Metodología)}
-
-\section*{Especificación Técnica}%añadir pies de página
-
-En esta sección se debe indicar claramente hasta dónde se va a llegar en el desarrollo del proyecto, es decir, delimitar la funcionalidad del proyecto. Para esto hay que realizar lo siguiente.
-
-Indicar los lenguajes de programación a utilizar, los estándares, protocolos, manejadores de bases de datos, entornos de desarrollo, interfaces, componentes, etc., que se usarán en el desarrollo del proyecto. Por ejemplo, si se hará uso de un servicio remoto o si se hará una conexión a un dispositivo externo se deberá especificar el protocolo de comunicación usado. No se deberán describir las características de éstos elementos.
-
-Especificar la magnitud de los datos que se manejarán, por ejemplo, si se propone un sistema de información se deberá indicar la cantidad de registros y usuarios simultáneos que debe ser capaz de soportar, mientras que si se propone un algoritmo se deberá indicar el tamaño de la instancia máxima que debe poder resolver y en cuánto tiempo.
-
-Adicionalmente, se definirán las características mínimas que tendrá el producto final para dar por concluido el proyecto, esto se puede lograr explicando cómo se considerará que cada módulo a desarrollar o etapa de la metodología ya ha sido finalizado.
-
-Para que la propuesta pueda ser aceptada, el último párrafo de esta sección deberá decir exactamente lo siguiente:
-
-Al concluir el proyecto de integración se entregará un disco compacto al Coordinador de Estudios de Ingeniería en Computación que incluirá el reporte final del proyecto en un archivo PDF (sin restricciones)\footnote{Debe poder visualizarse sin solicitar contraseña}, el código fuente de la aplicación en un archivo comprimido (sin restricciones)\footnote{Debe poder descomprimirse sin solicitar contraseña}. La sección de apéndices del reporte final contendrá al menos un listado del código fuente desarrollado.
-
-Adicionalmente a éste párrafo, el alumno especificará si se entregarán otros elementos como manuales de usuario, manuales de instalación, diagramas u otros elementos generados durante el desarrollo del proyecto. El disco compacto que se entregue al Coordinador de Estudios no deberá incluir ningún archivo ejecutable o multimedia, ni tampoco documentos o programas no desarrollados por los alumnos.
-
-\section*{Cronograma de Actividades}
-
-Se creará una tabla por cada una de las UEA que se contempla cursar durante la realización del proyecto, para cada una se incluirá el trimestre en el que se cursará, el nombre, la clave, el número de créditos y la cantidad de horas a cubrir (multiplicando 11 por el número de créditos).
-
-Cada tabla de actividades estará referenciada en el texto y se le colocará una nota al pie de tabla con una descripción breve de su contenido. Hay que considerar que la suma de las horas invertidas en cada actividad tiene que coincidir con las horas esperadas de trabajo dependiendo la UEA a cursar. Un ejemplo de lo que se espera en esta tabla es:
-
-El cronograma de actividades a realizar en el trimestre 2018 Invierno como parte de la UEA Proyecto de Integración de Ingeniería en Computación I con clave 1100113 de 18 créditos con un total de 198 horas se muestra en la Tabla~\ref{table:calendar}.
-
-\begin{table}[h!]
-  \begin{tabular}{p{0.3\textwidth} p{0.3\textwidth} p{0.3\textwidth}}
-    \toprule
-    \textbf{{Actividad}} & \textbf{{Horas}} & \textbf{{Producto}} \\
-    \toprule
-    Nombre de la actividad (comenzará con un verbo en infinitivo) &
-    100 &
-    Producto que se obtiene al finalizar la actividad (diagramas, documentación, código fuente, archivo de ejecución por lotes, etc.)\\
-    \midrule
-    Nombre de la actividad &
-    98 &
-    Producto que se obtiene al finalizar la actividad\\
-    \midrule
-    \textbf{Total} & 198 horas & \\
-    \bottomrule
-  \end{tabular}
-  \caption{Calendario de actividades para el trimestre 2018 Invierno.}
-  \label{table:calendar}
-\end{table}
-
-%Integrar esta sección dentro de factibilidad
-\section*{Factibilidad}
-
-En esta sección el autor explicará por qué su propuesta es realizable. Para esto, el autor evaluará la factibilidad desde el punto de vista operativo, técnico y económico.
-
-La factibilidad operativa consiste en evaluar si todas las actividades planteadas en el calendario son realizables. Teniendo en cuenta un proyecto científico, una actividad no realizable sería tratar de romper una clave SHA-256 dado que ese problema es NP. Otra actividad de la misma índole sería la ejecución de una heurística que tarda 190 horas considerando un proyecto de 198 horas; el problema radicaría en que, si bien, no se sobrepasa el tiempo límite del proyecto, no se estaría considerando que los resultados pueden ser diferentes a los esperados, lo que quizás implique otra ronda de ejecución de experimentos.
-
-La factibilidad técnica es el resultado de evaluar si los recursos humanos poseen los conocimientos y habilidades para llevar a cabo las actividades que se plantean en el calendario, por ejemplo, si el autor menciona que va a emplear \textit{Python} para implementar uno de los módulos que presentó en la Descripción Técnica, entonces, en este apartado debe indicar que conoce el lenguaje de programación en cuestión. La factibilidad técnica también incluye una lista y descripción de los recursos que no sean de uso común, por ejemplo, un servidor, un celular, una tarjeta de desarrollo, etc. Si se utiliza algún software que requiera licencia para utilizarlo, deberá indicarse que ya se tiene disponible al igual que los permisos para utilizarlo, si se utilizará alguna información especial, también se debe indicar si se tiene disponible y que se tiene el permiso para utilizarla. 
-
-Por último, la factibilidad económica trata sobre una evaluación de los costos que implica la realización del proyecto en términos de uso de infraestructura, por ejemplo, computadoras, servidores, teléfonos inteligentes, conmutadores, encaminadores; todo el equipo físico en general. Además, se deben incluir gastos como acceso a Internet, uso de licencias, consumo de energía eléctrica y, en su caso, transporte, alimento y otros insumos. Asimismo, se deberá incluir el valor del trabajo intelectual, es decir, el costo por el tiempo invertido en el diseño y la implementación del proyecto. Esto daría una idea del capital mínimo que tendría el proyecto en caso de que se quisiera comercializar.
-
-Para que la propuesta pueda ser aceptada, esta sección deberá contar con el siguiente párrafo (adaptado a número y género de los asesores). 
-
-El asesor se responsabiliza de guiar al alumno y de que todos los recursos mencionados en la factibilidad técnica estarán disponibles para el alumno, de modo que el proyecto de integración se pueda concluir en tiempo y forma.\\[1.5cm]
-
-%Cerrar esta sección con una conclusión
-\begin{center}
-  \begin{minipage}{0.4\textwidth}
-    \centering
-    Dra. Asesora %grado y nombre completo del asesor
-  \end{minipage}
-  \begin{minipage}{0.4\textwidth}
-    \centering
-    Dra. Coasesora %grado y Nombre completo del coasesor
-  \end{minipage}
-\end{center}
