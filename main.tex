@@ -1,0 +1,28 @@
+%Plantilla para redactar la propuesta del proyecto de integración
+%Para construir el documento, puedes usar el comando latexmk que está
+%disponible en distribuciones como TeXLive, MikTeX y MacTeX.
+%
+%       El autor puede usar hasta diez páginas comenzando por la introducción
+%
+%latexmk main.tex
+%
+%Esta plantilla también opera en aplicaciones web como ShareLaTeX
+
+\pdfminorversion 4
+\documentclass[12pt]{article}
+%Este archivo contiene los paquetes necesarios para construir el documento
+%Puedes agregar los que necesites.
+\include{preamble}
+
+\begin{document}
+
+    \include{cover}%Este archivo contiene los datos de la portada
+    \include{declaration}%La declaratoria está en este archivo
+    \input{proposal}%Escribe tu propuesta en este archivo
+    
+    %Este archivo define el estilo IEEE de las referencias en español
+    \small
+    \bibliographystyle{IEEEtran}
+    \bibliography{piic}%Añade las referencias que necesites en el archivo .bib
+    
+\end{document}

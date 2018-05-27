@@ -1,0 +1,68 @@
+\usepackage[letterpaper, margin=1in, nohead]{geometry}
+\usepackage{listingsutf8} % Embebbed formatted code to the file
+\lstset{basicstyle=\footnotesize\ttfamily,language=C++,keywordstyle=\color{Xoc},stringstyle=\color{Izt},}
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{graphicx} % Required for including pictures
+\graphicspath{{figures/}} % Directories where images are stored
+\usepackage{wrapfig} % Allows in-line images
+\usepackage[svgnames]{xcolor} % Allows the use of colors across the document
+   \definecolor{Azc}{RGB}{205,3,46}
+   \definecolor{Izt}{RGB}{87,165,25}
+   \definecolor{Xoc}{RGB}{0,114,206}
+   \definecolor{Cua}{RGB}{240,130,0}
+   \definecolor{Ler}{RGB}{173,37,168}
+   \definecolor{Wolf}{RGB}{64,64,64}
+\usepackage{amsfonts, amsmath, amsthm, amssymb}
+\usepackage{sectsty}
+\sectionfont{\large}
+\subsectionfont{\normalsize}
+\usepackage{colortbl}
+\usepackage{hyperref}
+\hypersetup{
+   colorlinks=true,
+   linkcolor=black,
+   citecolor=black,
+   linkbordercolor=white,
+   urlcolor=black,
+   citecolor=black
+}
+\usepackage{url} % Become references in links
+\usepackage[spanish,mexico]{babel} % Requiered for Mexican Spanish hyphenation and table names
+\usepackage[utf8x]{inputenc} % Required for accented characters
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo} % Use the Palatino font
+\usepackage[scaled=.80]{helvet}
+\usepackage{algorithm} %required to write pseudocode
+\usepackage{algpseudocode}
+\usepackage{siunitx} %Requiered to use SI units
+\usepackage{booktabs} %Fancy tables
+\usepackage[font=footnotesize,labelfont=bf,labelsep = period]{caption}
+%\captionsetup[algorithm]{font=footnotesize}
+\usepackage{afterpage}
+\usepackage{enumitem}
+\linespread{1.05} % Changes line spacing here, Palatino benefits from a slight increase by default
+
+\makeatletter
+\renewcommand{\@listI}{\itemsep=0pt} % Reduces the space between items in the itemize and enumerate environments and the bibliography
+\renewcommand{\abstractname}{Resumen} % Uncomment to change the name of the abstract to something else
+\renewcommand{\lstlistingname}{Código} % Listing -> Code
+\renewcommand{\ALG@name}{Algoritmo}
+\newcommand{\white}[1]{\textcolor{white}{#1}}
+\newcommand{\red}[1]{\textcolor{Azc}{#1}}
+\newcommand{\blue}[1]{\textcolor{Xoc}{#1}}
+\newcommand{\orange}[1]{\textcolor{Cua}{#1}}
+\newcommand{\grape}[1]{\textcolor{Ler}{#1}}
+\newcommand{\green}[1]{\textcolor{Izt}{#1}}
+\newcommand{\gray}[1]{\textcolor{Wolf}{#1}}
+\newcommand{\eg}{\textit{e.g. }}
+\newcommand{\ie}{\textit{i.e. }}
+
+%Figure caption style
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+%paragraph style
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.5em}
+\renewcommand{\baselinestretch}{1.1}
