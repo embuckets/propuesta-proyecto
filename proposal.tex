@@ -1,56 +1,85 @@
 %Este comando hace que la página que contiene la introducción sea la número uno
 \setcounter{page}{1}
+\tableofcontents
 
-\section*{Introducción}%Introducción
+\section{Introducción}%Introducción
 Un agente de seguros es la persona física o moral autorizada por la Comisión Nacional de Seguros y Fianzas para realizar actividades de intermediación en la contratación de seguros o de fianzas. Las actividades de intermediación que pueden realizar los agentes consiste en el intercambio de propuestas, comercialización y asesoramiento para la contratación de seguros o fianzas, su conservación o modificación, renovación o cancelación. \cite{www:reg-agentes}
 
 A medida del aumento de clientes que asesora el agente el manejo de las pólizas se dificulta.
 El Control de Cartera para Agentes de Seguros facilita esta tarea.
 
-\section*{Justificación}
+\section{Justificación}
 
 Los agentes de seguros no cuentan con un software libre para este aspecto del trabajo, por lo tanto, tienen que recurrir a sus propios métodos. La mayoría utiliza hojas de calculo, otros un sistema de archivos y el resto no tienen 
 un proceso establecido.
 El Control de Cartera es un software libre que facilita la gestión de clientes, pólizas, cobranzas y renovaciones; lo cual tiene un impacto en la productividad del agente.
 
-\section*{Objetivos}
-
+\section{Objetivos}
+\addcontentsline{toc}{subsection}{Objetivo General}
 \subsection*{Objetivo General}
 Facilitar y el control de cartera para agentes de seguros.
-
+\addcontentsline{toc}{subsection}{Objetivos Específicos}
 \subsection*{Objetivos Específicos}
 \begin{enumerate}
   \item Gestionar clientes.
-  \subitem Agregar, modificar, borrar.
   \item Gestionar pólizas
-    \subitem Agregar, modificar, borrar.
   \item Gestionar cobranza.
-  \subitem Ver cobranza pendiente.
-  \subitem Actualizar cobranza.
   \item Gestionar renovaciones.
-  \subitem Ver renovaciones pendientes.
-  \subitem Actualizar renovaciones.
+  \item Gestionar formatos.
+  \item Reportes de comisiones.
 \end{enumerate}
 
-\section*{Trabajos Relacionados}
+\section{Trabajos Relacionados}
+\addcontentsline{toc}{subsection}{Software Comercial}
 \subsection*{Software Comercial}
+\addcontentsline{toc}{subsubsection}{SICAS}
 \subsubsection*{SICAS \cite{www:sicas}} 
 
 SICAS Online es un sistema WEB para el Control y Administración para Cartera de Agentes, Corredores, Promotores de Seguros y afines. Contempla una lógica de negocio para solventar las necesidades mas básicas o complejas que se puedan presentar. Este software esta orientado mas hacia los promotores.
 
+\addcontentsline{toc}{subsubsection}{Insly}
 \subsubsection*{Insly \cite{www:insly}}
 
 Software para agencias de seguros basado en la nube. Permite administrar el flujo de ventas gestionando clientes, pólizas y productos de seguros.
 
+\addcontentsline{toc}{subsubsection}{Asesorestic}
 \subsubsection*{Asesorestic – Software para Administración de pólizas de seguros \cite{www:asesorestic}}
 
 El sistema contribuye a tener el control sobre el estado de cada póliza, en especial, el seguimiento de cobros de las primas de seguros, el reclamo de la planilla a las empresas aseguradoras y la comunicación y seguimiento con aseguradoras y asegurados.
 
-\begin{table}[H] %ht!
+\addcontentsline{toc}{subsection}{Proyectos Terminales}
+\subsection*{Proyectos Terminales}
+
+\addcontentsline{toc}{subsubsection}{Gestión de Información para el Manejo de Clientes de PyMEs CRM}
+\subsubsection*{Gestión de Información para el Manejo de Clientes de PyMEs CRM \cite{pro:crm}}
+
+Sistema  de  seguimiento  que  se  
+ejecuta sobre ambiente Web, con el fin de facilitar la intercomunicación con los múltiples clientes 
+que puede atender una empresa.
+
+\addcontentsline{toc}{subsubsection}{Proyecto E-File}
+\subsubsection*{Proyecto E-File \cite{pro:zurich}}
+
+sistema  que  permita  a  los  suscriptores  de  la 
+aseguradora  poder crear expedientes de los nuevos clientes   , en 
+estas   carpetas   se   guardaran   los   documentos   empleados   para   
+realizar  la  cotización  del  negocio  y  que  sirven  como  base  para  
+futuras 
+renovaciones, 
+así como para las auditorías que se realizan 
+en la empresa. 
+
+\addcontentsline{toc}{subsubsection}{Proponer mejoras en el área de emisión de pólizas de una aseguradora}
+\subsubsection*{Proponer mejoras en el área de emisión de pólizas de una aseguradora \cite{pro:emi}}
+
+En  el  proyecto  de  integración  se  propone  elaborar un manual de procedimientos operativos y un plan de capacitación para agilizar las emisiones de pólizas.
+
+\begin{table}[ht!] %ht!
   \begin{tabular}{p{0.15\textwidth} p{0.4\textwidth} p{0.4\textwidth}}
     \toprule
     \textbf{{Referencia}} & \textbf{{Similitudes}} & \textbf{{Diferencias}} \\
     \toprule
+    %fila
     SICAS Online &
     \begin{itemize}[leftmargin=*]
         \item Administración de clientes, pólizas, renovaciones, cobranza.
@@ -59,6 +88,8 @@ El sistema contribuye a tener el control sobre el estado de cada póliza, en esp
         \item Administración de comisiones.
     \end{itemize} \\
     \midrule
+    
+    %fila
     Insly &
     \begin{itemize}[leftmargin=*]
         \item Administración de clientes, pólizas, pagos.
@@ -66,6 +97,8 @@ El sistema contribuye a tener el control sobre el estado de cada póliza, en esp
     \begin{itemize}[leftmargin=*]
         \item Reportes estadísticos de clientes, ventas, etc.
     \end{itemize} \\
+
+%fila
 \midrule
 Asesorestic – Software para Administración de pólizas de seguros &
 \begin{itemize}[leftmargin=*]
@@ -77,8 +110,110 @@ Asesorestic – Software para Administración de pólizas de seguros &
 	\item Seguimiento de cotizaciones, solicitudes y reclamos.
 \end{itemize} \\
 
+%fila
+\midrule
+Gestión de Información para el Manejo de Clientes de PyMEs CRM &
+\begin{itemize}[leftmargin=*]
+	\item Sistema de seguimiento de clientes.
+\end{itemize} &
+\begin{itemize}[leftmargin=*]
+	\item Enfocado a la recolección de datos para la toma de decisiones de rentabilidad.
+\end{itemize} \\
+
+%fila
+\midrule
+Proyecto E-File &
+\begin{itemize}[leftmargin=*]
+	\item Creación de expedientes de nuevos clientes.
+\end{itemize} &
+\begin{itemize}[leftmargin=*]
+	\item Analizar información para analizar riesgos de negocio.
+\end{itemize} \\
+
+
+%fila
+\midrule
+Proponer mejoras en el área de emisión de pólizas de una aseguradora &
+\begin{itemize}[leftmargin=*]
+	\item Mismo dominio de problema.  
+\end{itemize} &
+\begin{itemize}[leftmargin=*]
+	\item Trata de mejorar procesos internos de la compañía de seguros.
+\end{itemize} \\
+
+
     \bottomrule
   \end{tabular}
   \caption{Comparación cualitativa de los trabajos relacionados con el proyecto propuesto.}
   \label{table:related}
 \end{table}
+
+\section{Descripción Técnica}
+
+\addcontentsline{toc}{subsection}{Gestionar Clientes}
+\subsection*{Gestionar Clientes}
+
+Este modulo del sistema sera el encargado de:
+\begin{itemize}
+	\item Registrar nuevos clientes.
+	\item Editar información de los clientes.
+	\item Mostrar las pólizas de los clientes.
+	\item Mostrar los documentos de los clientes.
+	\item Mostrar notificaciones de cumpleaños.
+\end{itemize}
+
+\addcontentsline{toc}{subsection}{Gestionar pólizas}
+\subsection*{Gestionar pólizas}
+
+Este modulo del sistema sera el encargado de:
+\begin{itemize}
+	\item Registrar nuevas pólizas
+	\item Editar información de las pólizas.
+	\item Mostrar pólizas registradas.
+	\item Borrar pólizas.
+\end{itemize}
+
+\addcontentsline{toc}{subsection}{Gestionar cobranza}
+\subsection*{Gestionar cobranza}
+
+Este modulo del sistema sera el encargado de:
+\begin{itemize}
+	\item Mostrar cobranza pendiente.
+	\item Mostrar cobranza cobrada.
+	\item Mostrar cobranza vencida.
+	\item Actualizar cobranza.
+	\item Enviar notificaciones de pago a los clientes.
+\end{itemize}
+
+\addcontentsline{toc}{subsection}{Gestionar renovaciones}
+\subsection*{Gestionar renovaciones}
+
+Este modulo del sistema sera el encargado de:
+\begin{itemize}
+	\item Mostrar renovaciones pendientes.
+	\item Mostrar renovaciones vencidas.
+	\item Actualizar renovaciones.
+	\item Enviar notificaciones de renovación a los clientes.
+\end{itemize}
+
+\addcontentsline{toc}{subsection}{Gestionar formatos}
+\subsection*{Gestionar formatos}
+
+Este modulo del sistema sera el encargado de:
+\begin{itemize}
+	\item Registrar nuevos formatos.
+	\item Enviar formatos.
+\end{itemize}
+
+\addcontentsline{toc}{subsection}{Gestionar comisiones}
+\subsection*{Reportes de comisiones}
+
+Este modulo del sistema sera el encargado de:
+\begin{itemize}
+	\item Mostrar proyecciones de comisiones dentro de un periodo de tiempo.
+\end{itemize}
+
+\section{Especificación técnica}
+PENDIENTE
+
+
