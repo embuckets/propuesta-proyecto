@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.6)  10 JUN 2018 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.6)  13 JUN 2018 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,39 +829,106 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count311
 \@thisrulewidth=\dimen191
 )
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip67
+\multirow@cntb=\count312
+\multirow@dima=\skip68
+\bigstrutjot=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count313
+\LTcapwidth=\dimen193
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@cols=\count314
+\LT@rows=\count315
+\c@LT@tables=\count316
+\c@LT@chunks=\count317
+\LT@p@ftn=\toks42
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count318
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box60
+\sift@deathcycles=\count319
+\@vwid@loff=\dimen194
+\@vwid@roff=\dimen195
+)
+\c@taburow=\count320
+\tabu@nbcols=\count321
+\tabu@cnt=\count322
+\tabu@Xcol=\count323
+\tabu@alloc=\count324
+\tabu@nested=\count325
+\tabu@target=\dimen196
+\tabu@spreadtarget=\dimen197
+\tabu@naturalX=\dimen198
+\tabucolX=\dimen199
+\tabu@Xsum=\dimen256
+\extrarowdepth=\dimen257
+\abovetabulinesep=\dimen258
+\belowtabulinesep=\dimen259
+\tabustrutrule=\dimen260
+\tabu@thebody=\toks43
+\tabu@footnotes=\toks44
+\tabu@box=\box61
+\tabu@arstrutbox=\box62
+\tabu@hleads=\box63
+\tabu@vleads=\box64
+\tabu@cellskip=\skip73
+)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen192
-\captionmargin@=\dimen193
-\captionwidth=\dimen194
-\caption@tempdima=\dimen195
-\caption@indent=\dimen196
-\caption@parindent=\dimen197
-\caption@hangindent=\dimen198
+\captionmargin=\dimen261
+\captionmargin@=\dimen262
+\captionwidth=\dimen263
+\caption@tempdima=\dimen264
+\caption@indent=\dimen265
+\caption@parindent=\dimen266
+\caption@hangindent=\dimen267
 )
-\c@ContinuedFloat=\count312
+\c@ContinuedFloat=\count326
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
 Package caption Info: wrapfig package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks42
-\AP@partial=\box56
-\AP@footins=\box57
+\AP@output=\toks45
+\AP@partial=\box65
+\AP@footins=\box66
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip67
-\enit@outerparindent=\dimen199
-\enit@toks=\toks43
-\enit@inbox=\box58
-\enitdp@description=\count313
+\labelindent=\skip74
+\enit@outerparindent=\dimen268
+\enit@toks=\toks46
+\enit@inbox=\box67
+\enitdp@description=\count327
 )) (./main.aux
 (./cover.aux)
 LaTeX Info: Redefining \. on input line 21.
@@ -922,7 +989,7 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count314
+\c@lstlisting=\count328
 LaTeX Info: Redefining \microtypecontext on input line 17.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -938,17 +1005,17 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
-\scratchdimen=\dimen256
-\scratchbox=\box59
-\nofMPsegments=\count316
-\nofMParguments=\count317
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count318
-\MPscratchDim=\dimen257
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count329
+\scratchdimen=\dimen269
+\scratchbox=\box68
+\nofMPsegments=\count330
+\nofMParguments=\count331
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count332
+\MPscratchDim=\dimen270
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
+\everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -966,7 +1033,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box60
+\AtBeginShipoutBox=\box69
 Package hyperref Info: Link coloring ON on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -975,7 +1042,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count321
+\c@section@level=\count335
 )
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
@@ -1002,7 +1069,7 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\c__siunitx_mathsf_int=\count322
+\c__siunitx_mathsf_int=\count336
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -1060,7 +1127,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count323
+\c__siunitx_mathtt_int=\count337
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1124,62 +1191,17 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 [2] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 4353) in paragraph at lines 83--83
-[]|\T1/ppl/m/n/12 (+20) SICAS On-li-
+Underfull \hbox (badness 6332) in paragraph at lines 115--115
+\T1/ppl/m/n/12 (+20) ma-ción pa-ra el
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 103--103
-\T1/ppl/m/n/12 (+20) Soft-wa-re pa-
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+\T1/ppl/m/n/12 (+20) tes de Py-MEs
  []
 
 
-Underfull \hbox (badness 6332) in paragraph at lines 103--103
-\T1/ppl/m/n/12 (+20) ra Ad-mi-nis-
- []
-
-
-Underfull \hbox (badness 3098) in paragraph at lines 115--115
-\T1/ppl/m/n/12 (+20) ra el Ma-ne-
- []
-
-
-Underfull \hbox (badness 2617) in paragraph at lines 115--115
-\T1/ppl/m/n/12 (+20) jo de Clien-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]|\T1/ppl/m/n/12 (+20) Proyecto
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-[]|\T1/ppl/m/n/12 (+20) Proponer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\T1/ppl/m/n/12 (+20) me-jo-ras en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\T1/ppl/m/n/12 (+20) el área de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\T1/ppl/m/n/12 (+20) emi-sión de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-\T1/ppl/m/n/12 (+20) pó-li-zas de
- []
-
-
-Overfull \hbox (12.50363pt too wide) in paragraph at lines 78--147
+Overfull \hbox (35.99283pt too wide) in paragraph at lines 78--147
 [][] 
  []
 
@@ -1190,11 +1212,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 153.
 
-[4]
-
-LaTeX Warning: Text page 5 contains only floats.
-
-[5]
+[4] [5]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 217.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1207,7 +1225,43 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 217.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 217.
- [6]) (./main.bbl
+ [6]
+
+LaTeX Warning: Reference `table:calendar' on page 7 undefined on input line 249
+.
+
+\c@iteracion=\count338
+
+Overfull \hbox (1.68114pt too wide) in paragraph at lines 396--396
+ []\T1/ppl/b/n/12 Iteración| 
+ []
+
+
+Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+ [] [] [] [] 
+ []
+
+[7] [8] [9]) (./main.bbl
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 11.40997pt on input line 28.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1222,9 +1276,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--30
 % 20de % 20Fianzas % 20versi % C3 %
  []
 
-)
+[10])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [7]
+ [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (./main.aux (./cover.aux)
 LaTeX Info: Redefining \. on input line 21.
@@ -1233,23 +1287,27 @@ LaTeX Info: Redefining \% on input line 21.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 00D4562268E23BA5D5F06BF8EC5627ED;1448.
+(rerunfilecheck)             Checksum: 55D3CEC3ACA5C434A336153E8CE5445A;1557.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 25232 strings out of 492982
- 455642 string characters out of 6134897
- 565734 words of memory out of 5000000
- 28307 multiletter control sequences out of 15000+600000
- 575272 words of font info for 189 fonts, out of 8000000 for 9000
+ 26514 strings out of 492982
+ 472679 string characters out of 6134897
+ 611759 words of memory out of 5000000
+ 29534 multiletter control sequences out of 15000+600000
+ 576226 words of font info for 201 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,13n,60p,10409b,853s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,13n,60p,10409b,1017s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (9 pages, 81835 bytes).
+Output written on main.pdf (13 pages, 91904 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 40113 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 40129 words of extra memory for PDF output out of 42996 (max. 10000000)
 

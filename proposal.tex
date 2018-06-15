@@ -75,7 +75,7 @@ en la empresa.
 En  el  proyecto  de  integración  se  propone  elaborar un manual de procedimientos operativos y un plan de capacitación para agilizar las emisiones de pólizas.
 
 \begin{table}[ht!] %ht!
-  \begin{tabular}{p{0.15\textwidth} p{0.4\textwidth} p{0.4\textwidth}}
+  \begin{tabular}{p{0.2\textwidth} p{0.4\textwidth} p{0.4\textwidth}}
     \toprule
     \textbf{{Referencia}} & \textbf{{Similitudes}} & \textbf{{Diferencias}} \\
     \toprule
@@ -228,4 +228,208 @@ Al concluir el proyecto de integración se entregará un disco compacto al Coord
 de Estudios de Ingeniería en Computación que incluirá el reporte final del proyecto
 en un archivo PDF (sin restricciones) \footnote{Debe poder visualizarse sin solicitar contraseña}, el código fuente de la aplicación en un archivo comprimido (sin restricciones) \footnote{Debe poder descomprimirse sin solicitar contraseña}. La sección de apéndices del reporte final contendrá al
 menos un listado del código fuente desarrollado.
+
+\section{Cronograma de actividades}
+
+La UEA correspondiente a las actividades que se realizaran sera Proyecto de Integración en Ingeniería en Computación I. Este proyecto se completara en un total de 396 horas, las actividades se realizaran durante el lapso de los trimestres académicos 18-P y 18-O. El proyecto se realizará en una sucesión de iteraciones incrementales y evolutivas. Una iteración tiene una duración de 22 horas y esta compuesta por las siguientes actividades: 
+\begin{enumerate}
+	\item Diseño (2 horas)
+	\subitem Casos de uso de texto.
+	\subitem Diagramas.
+	\item Programación (16 horas)
+	\subitem Código de producción.
+	\subitem Testing.
+	\item Demo (2 horas)
+	\subitem Retroalimentación.
+	\item Refinamiento (2 horas)
+	\subitem Recolección de correcciones para la siguiente iteración.
+\end{enumerate}
+
+Se realizarán 2 o 3 iteraciones por cada uno de los 6 objetivos específicos. Cada iteración se concentrará un un subconjunto de funcionalidades dentro de los objetivos específicos.
+  Las actividades se muestran en la Tabla \ref{table:calendar}
+
+\newcounter{iteracion}
+\newcommand\rownumber{\stepcounter{iteracion}\arabic{iteracion}}
+
+\newcolumntype{C}{>{\centering\arraybackslash}m{0.1\textwidth} }  %# New column type
+%\begin{table}[h!]
+	\begin{longtabu} to \textwidth{
+		C p{0.4\textwidth} C p{0.4\textwidth} }
+	
+		\toprule
+		\textbf{Iteración} & \textbf{Actividad} & \textbf{Horas} & \textbf{Producto} \\
+		\hline
+		\endfirsthead
+		\hline
+		\multicolumn{2}{c}{\textbf{Iteración}} & \multicolumn{2}{c}{\textbf{Actividad}} \\
+		\hline
+		\endhead
+		\hline
+		\endfoot
+		\hline
+		\multicolumn{4}{c}{\textbf{Total: 396 hrs}} \\
+		\hline
+		
+		\endlastfoot
+		
+		\rownumber & 
+	\begin{itemize}
+		\item Análisis de requerimientos.
+		\item Identificar casos de uso.
+		\item Requerimientos funcionales y no funcionales.
+		\item Glosario.
+	\end{itemize} & 22 &
+\begin{itemize}
+	\item Diagrama de casos de uso.
+	\item Glosario.
+\end{itemize} \\
+
+\midrule
+
+\rownumber & 
+\begin{itemize}
+	\item Diagrama del dominio.
+	\item Diseño de la base de datos.
+	\item Diseño del modelo.
+	\item Diseño de la arquitectura.
+	\item Creación de casos de uso casuales para los requerimientos principales.
+\end{itemize} & 22 &
+\begin{itemize}
+	\item Diagrama del dominio.
+	\item Esquema de la base de datos.
+	\item Diagrama del modelo.
+	\item Diagrama de paquetes.
+	\item Casos de uso de texto.
+\end{itemize} \\
+
+\midrule
+\multicolumn{2}{c}{\textbf{Iteración}} & \multicolumn{2}{c}{\textbf{Actividad}} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
+
+\midrule
+\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Registrar}  \\
+& & \multicolumn{2}{c}{Editar} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Pólizas}} \\
+
+\midrule
+\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Registrar}  \\
+& & \multicolumn{2}{c}{Mostrar} \\
+
+\midrule
+\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Editar}  \\
+& & \multicolumn{2}{c}{Borrar} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Formatos}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Registrar} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar póliza} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar documentos} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Cobranza}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar pendiente} \\
+
+\midrule
+\multicolumn{2}{c}{\multirow{3}{1em}{\rownumber}} & \multicolumn{2}{c}{Actualizar}  \\
+& & \multicolumn{2}{c}{Mostrar cobrada} \\
+& & \multicolumn{2}{c}{Mostrar vencida} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Renovación}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar pendientes} \\
+	
+\midrule
+\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Actualizar}  \\
+& & \multicolumn{2}{c}{Mostrar vencidas} \\
+
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Notificación de cumpleaños} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Renovación}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Enviar notificación} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Gestionar Formatos}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Enviar} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Comisiones}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar proyecciones} \\
+
+\midrule
+\multicolumn{4}{c}{\textbf{Finalización}} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Testear sistema} \\
+
+\midrule
+\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Despliegue} \\
+
+\end{longtabu}
+
+\section{Factibilidad}
+
+\subsection*{Operativa}
+Para este proyecto propuse 22 horas por iteración que equivalen aproximadamente a 4 horas diarias trabajando 5 días a la semana. Considero que este tiempo es justo para producir un software robusto y de alta calidad.
+
+\subsection*{Técnica}
+No hay restricciones para el proyecto ya que todo el software y librerías necesarios son gratuitos.
+Se cuenta con los conociemientos de java y base de datos 
+hace falta aprender libreria de java de correo electronico etc
+
+\subsection*{Económica}
+
+
+\subsection*{Ventajas y Beneficios}
+
+
+\subsection*{Párrafo obligatorio}
+El asesor se responsabiliza de guiar al alumno y de que todos los recursos menciona-
+dos en la factibilidad técnica estarán disponibles para el alumno, de modo que el proyecto
+de integración se pueda concluir en tiempo y forma.
+
+\begin{center}
+	\begin{minipage}{0.4\textwidth}
+		\centering
+		\begin{tabular}{l}
+			\makebox[5cm]{\hrulefill}
+		\end{tabular}\\
+		Dra. Beatriz Adriana González Beltrán%Grado y nombre del asesor
+	\end{minipage}
+	\begin{minipage}{0.4\textwidth}
+		\centering
+		\begin{tabular}{l}
+			\makebox[5cm]{\hrulefill}
+		\end{tabular}\\
+		Dra. Coasesora%Grado y nombre del asesor
+	\end{minipage}
+\end{center}
 
