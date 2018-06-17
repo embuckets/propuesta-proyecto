@@ -13,10 +13,10 @@
 \contentsline {subsubsection}{Gesti\IeC {\'o}n de Informaci\IeC {\'o}n para el Manejo de Clientes de PyMEs CRM}{3}{section*.11}
 \contentsline {subsubsection}{Proyecto E-File}{3}{section*.12}
 \contentsline {subsubsection}{Proponer mejoras en el \IeC {\'a}rea de emisi\IeC {\'o}n de p\IeC {\'o}lizas de una aseguradora}{3}{section*.13}
-\contentsline {section}{\numberline {5}Descripci\IeC {\'o}n T\IeC {\'e}cnica}{5}{section.5}
-\contentsline {subsection}{Gestionar Clientes}{5}{section*.16}
-\contentsline {subsection}{Gestionar p\IeC {\'o}lizas}{5}{section*.17}
-\contentsline {subsection}{Gestionar cobranza}{5}{section*.18}
+\contentsline {section}{\numberline {5}Descripci\IeC {\'o}n T\IeC {\'e}cnica}{4}{section.5}
+\contentsline {subsection}{Gestionar Clientes}{4}{section*.16}
+\contentsline {subsection}{Gestionar p\IeC {\'o}lizas}{4}{section*.17}
+\contentsline {subsection}{Gestionar cobranza}{4}{section*.18}
 \contentsline {subsection}{Gestionar renovaciones}{5}{section*.19}
 \contentsline {subsection}{Gestionar formatos}{6}{section*.20}
 \contentsline {subsection}{Gestionar comisiones}{6}{section*.21}

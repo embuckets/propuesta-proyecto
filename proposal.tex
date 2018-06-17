@@ -5,28 +5,29 @@
 \section{Introducción}%Introducción
 Un agente de seguros es la persona física o moral autorizada por la Comisión Nacional de Seguros y Fianzas para realizar actividades de intermediación en la contratación de seguros o de fianzas. Las actividades de intermediación que pueden realizar los agentes consiste en el intercambio de propuestas, comercialización y asesoramiento para la contratación de seguros o fianzas, su conservación o modificación, renovación o cancelación. \cite{www:reg-agentes}
 
-A medida del aumento de clientes que asesora el agente el manejo de las pólizas se dificulta.
+Existe una gran variedad de ramos de pólizas (vida, gastos médicos, autos, daños, etc) cada uno con condiciones y coberturas distintas. El asegurado puede elegir el tipo de pago fraccionado (mensual, trimestres, semestral, anual) y en algunas pólizas la vigencia del plan.
+
+El agente debe asesorar al asegurado en el uso de su póliza, ademas de recordarle el pago de su recibo y fecha de renovación.
+
+Con los años los agentes de seguros pueden llegar a tener cientos de clientes y llevar el control de las pólizas se vuelve complicado.
+
 El Control de Cartera para Agentes de Seguros facilita esta tarea.
 
 \section{Justificación}
 
-Los agentes de seguros no cuentan con un software libre para este aspecto del trabajo, por lo tanto, tienen que recurrir a sus propios métodos. La mayoría utiliza hojas de calculo, otros un sistema de archivos y el resto no tienen 
-un proceso establecido.
+Los agentes de seguros no cuentan con un software libre para este aspecto del trabajo, por lo tanto, tienen que recurrir a sus propios métodos. La mayoría utiliza hojas de calculo o un sistema de archivos, lo que hace el mantenimiento de cartera y los datos una tarea muy manual que quita tiempo.
 El Control de Cartera es un software libre que facilita la gestión de clientes, pólizas, cobranzas y renovaciones; lo cual tiene un impacto en la productividad del agente.
 
 \section{Objetivos}
 \addcontentsline{toc}{subsection}{Objetivo General}
 \subsection*{Objetivo General}
-Facilitar y el control de cartera para agentes de seguros.
+Desarrollar un Sistema de Control de Cartera para agentes de seguros que disminuirá la complejidad de la gestión de cartera y aumentará la productividad del agente.
 \addcontentsline{toc}{subsection}{Objetivos Específicos}
 \subsection*{Objetivos Específicos}
 \begin{enumerate}
-  \item Gestionar clientes.
-  \item Gestionar pólizas
-  \item Gestionar cobranza.
-  \item Gestionar renovaciones.
-  \item Gestionar formatos.
-  \item Reportes de comisiones.
+	\item Gestionar clientes, pólizas, cobranza, renovaciones.
+	\item Guardar documentos de los clientes y formatos de las aseguradoras.
+	\item Reportar proyecciones de comisiones.
 \end{enumerate}
 
 \section{Trabajos Relacionados}
@@ -74,7 +75,9 @@ en la empresa.
 
 En  el  proyecto  de  integración  se  propone  elaborar un manual de procedimientos operativos y un plan de capacitación para agilizar las emisiones de pólizas.
 
-\begin{table}[ht!] %ht!
+La Tabla \ref{table:related} muestra las principales similitudes y diferencias que los antecedentes tienen con respecto a la propuesta.
+
+\begin{table}[h!] %ht!
   \begin{tabular}{p{0.2\textwidth} p{0.4\textwidth} p{0.4\textwidth}}
     \toprule
     \textbf{{Referencia}} & \textbf{{Similitudes}} & \textbf{{Diferencias}} \\
@@ -140,8 +143,6 @@ Proponer mejoras en el área de emisión de pólizas de una aseguradora &
 \begin{itemize}[leftmargin=*]
 	\item Trata de mejorar procesos internos de la compañía de seguros.
 \end{itemize} \\
-
-
     \bottomrule
   \end{tabular}
   \caption{Comparación cualitativa de los trabajos relacionados con el proyecto propuesto.}
@@ -226,12 +227,18 @@ El proyecto se dará como concluido cuando se pueda concluir una sesión de trab
 
 Al concluir el proyecto de integración se entregará un disco compacto al Coordinador
 de Estudios de Ingeniería en Computación que incluirá el reporte final del proyecto
-en un archivo PDF (sin restricciones) \footnote{Debe poder visualizarse sin solicitar contraseña}, el código fuente de la aplicación en un archivo comprimido (sin restricciones) \footnote{Debe poder descomprimirse sin solicitar contraseña}. La sección de apéndices del reporte final contendrá al
-menos un listado del código fuente desarrollado.
+en un archivo PDF (sin restricciones) \footnote{Debe poder visualizarse sin solicitar contraseña}, el código fuente de la aplicación en un archivo comprimido (sin restricciones) \footnote{Debe poder descomprimirse sin solicitar contraseña}. La sección de apéndices del reporte final contendrá al menos un listado del código fuente desarrollado.
+
+Adicionalmente se entregaran los artefactos elaborados (casos de uso de texto, diagramas, etc) y manual de usuario.
 
 \section{Cronograma de actividades}
 
-La UEA correspondiente a las actividades que se realizaran sera Proyecto de Integración en Ingeniería en Computación I. Este proyecto se completara en un total de 396 horas, las actividades se realizaran durante el lapso de los trimestres académicos 18-P y 18-O. El proyecto se realizará en una sucesión de iteraciones incrementales y evolutivas. Una iteración tiene una duración de 22 horas y esta compuesta por las siguientes actividades: 
+Las UEA's correspondientes a las actividades que se realizaran serán:
+\begin{itemize}
+	\item 1100113 - Proyecto de Integración en Ingeniería en Computación I - 18 créditos.
+	\item 1100123 - Proyecto de Integración en Ingeniería en Computación II - 18 créditos.
+\end{itemize} 
+ Este proyecto se completara en un total de 396 horas. Las actividades se realizaran durante el lapso de los trimestres académicos 2018-Primavera y 2018-Otoño. El proyecto se realizará en una sucesión de iteraciones incrementales y evolutivas. Una iteración tiene una duración de 22 horas y esta compuesta por las siguientes actividades: 
 \begin{enumerate}
 	\item Diseño (2 horas)
 	\subitem Casos de uso de texto.
@@ -245,17 +252,23 @@ La UEA correspondiente a las actividades que se realizaran sera Proyecto de Inte
 	\subitem Recolección de correcciones para la siguiente iteración.
 \end{enumerate}
 
-Se realizarán 2 o 3 iteraciones por cada uno de los 6 objetivos específicos. Cada iteración se concentrará un un subconjunto de funcionalidades dentro de los objetivos específicos.
-  Las actividades se muestran en la Tabla \ref{table:calendar}
+Se realizarán 2 o 3 iteraciones por cada uno de los apartados en la descripción técnica. Cada iteración se concentrará un un subconjunto de funcionalidades dentro de los objetivos específicos. 
+Las actividades para el trimestre 2018 - P se muestran en la Tabla \ref{table:calendarP}
 
+%=================
+% para alinear vertical y horizontalmente columnas de iteracion y horas 
+% ==============NO FUNCIONA
 \newcounter{iteracion}
 \newcommand\rownumber{\stepcounter{iteracion}\arabic{iteracion}}
 
 \newcolumntype{C}{>{\centering\arraybackslash}m{0.1\textwidth} }  %# New column type
+
+%=================
 %\begin{table}[h!]
 	\begin{longtabu} to \textwidth{
 		C p{0.4\textwidth} C p{0.4\textwidth} }
-	
+		%\caption{Calendario de actividades para el trimestre 2018 Primavera}
+		%\label{table:calendarP}
 		\toprule
 		\textbf{Iteración} & \textbf{Actividad} & \textbf{Horas} & \textbf{Producto} \\
 		\hline
@@ -292,7 +305,7 @@ Se realizarán 2 o 3 iteraciones por cada uno de los 6 objetivos específicos. C
 	\item Diseño de la base de datos.
 	\item Diseño del modelo.
 	\item Diseño de la arquitectura.
-	\item Creación de casos de uso casuales para los requerimientos principales.
+	\item Creación de casos de uso de texto casuales para los requerimientos principales.
 \end{itemize} & 22 &
 \begin{itemize}
 	\item Diagrama del dominio.
@@ -401,19 +414,23 @@ Se realizarán 2 o 3 iteraciones por cada uno de los 6 objetivos específicos. C
 Para este proyecto propuse 22 horas por iteración que equivalen aproximadamente a 4 horas diarias trabajando 5 días a la semana. Considero que este tiempo es justo para producir un software robusto y de alta calidad.
 
 \subsection*{Técnica}
-No hay restricciones para el proyecto ya que todo el software y librerías necesarios son gratuitos.
-Se cuenta con los conociemientos de java y base de datos 
-hace falta aprender libreria de java de correo electronico etc
+No hay restricciones técnicas para el proyecto ya que todo el software y librerías necesarios son gratuitos. Se cuentan con los conocimientos de java y base de datos necesarios.
+Se cuenta con la ayuda de un agente de seguros para la retroalimentación al terminar cada iteración.
 
 \subsection*{Económica}
+Estimación de costos mensuales:
 
+\begin{itemize}
+	\item Internet = \$830.
+	\item Luz = \$150.
+	\item Alimento = \$2,500
+	\item Sueldo medio de un programador Jr. = \$10,700
+\end{itemize}
 
-\subsection*{Ventajas y Beneficios}
+El costo total por los dos trimestres de duración del proyecto es de \$84,780 pesos.
 
-
-\subsection*{Párrafo obligatorio}
-El asesor se responsabiliza de guiar al alumno y de que todos los recursos menciona-
-dos en la factibilidad técnica estarán disponibles para el alumno, de modo que el proyecto
+%\subsection*{Párrafo obligatorio}
+El asesor se responsabiliza de guiar al alumno y de que todos los recursos mencionados en la factibilidad técnica estarán disponibles para el alumno, de modo que el proyecto
 de integración se pueda concluir en tiempo y forma.
 
 \begin{center}
@@ -429,7 +446,7 @@ de integración se pueda concluir en tiempo y forma.
 		\begin{tabular}{l}
 			\makebox[5cm]{\hrulefill}
 		\end{tabular}\\
-		Dra. Coasesora%Grado y nombre del asesor
+		Dra. Sonia G. Mendoza Chapa%Grado y nombre del asesor
 	\end{minipage}
 \end{center}
 

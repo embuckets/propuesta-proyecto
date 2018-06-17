@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.6)  13 JUN 2018 12:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.6)  16 JUN 2018 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,82 +1182,85 @@ l.7
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 18.
+(hyperref)                be the same. Added a new anchor on input line 22.
 
+[2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 33.
+(hyperref)                be the same. Added a new anchor on input line 34.
 
-[2] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-Underfull \hbox (badness 6332) in paragraph at lines 115--115
+) [3]
+Underfull \hbox (badness 6332) in paragraph at lines 118--118
 \T1/ppl/m/n/12 (+20) ma-ción pa-ra el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \T1/ppl/m/n/12 (+20) tes de Py-MEs
  []
 
 
-Overfull \hbox (35.99283pt too wide) in paragraph at lines 78--147
+Overfull \hbox (35.99283pt too wide) in paragraph at lines 81--148
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 147.
-[3]
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 148.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 153.
+(hyperref)                be the same. Added a new anchor on input line 154.
 
 [4] [5]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 217.
+(Font)              scaled to size 10.42007pt on input line 218.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 217.
+(Font)              scaled to size 7.91925pt on input line 218.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 217.
+(Font)              scaled to size 6.25204pt on input line 218.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 217.
+(Font)              scaled to size 10.42007pt on input line 218.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 217.
+(Font)              scaled to size 7.91925pt on input line 218.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 217.
+(Font)              scaled to size 6.25204pt on input line 218.
  [6]
 
-LaTeX Warning: Reference `table:calendar' on page 7 undefined on input line 249
-.
+LaTeX Warning: Reference `table:calendarP' on page 7 undefined on input line 25
+6.
 
 \c@iteracion=\count338
 
-Overfull \hbox (1.68114pt too wide) in paragraph at lines 396--396
+Overfull \hbox (1.68114pt too wide) in paragraph at lines 409--409
  []\T1/ppl/b/n/12 Iteración| 
  []
 
 
-Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+Overfull \hbox (47.99998pt too wide) in alignment at lines 409--409
  [] [] [] [] 
  []
 
 
-Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+Overfull \hbox (47.99998pt too wide) in alignment at lines 409--409
  [] [] [] [] 
  []
 
 
-Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+Overfull \hbox (47.99998pt too wide) in alignment at lines 409--409
  [] [] [] [] 
  []
 
 
-Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+Overfull \hbox (47.99998pt too wide) in alignment at lines 409--409
  [] [] [] [] 
  []
 
 
-Overfull \hbox (47.99998pt too wide) in alignment at lines 396--396
+Overfull \hbox (47.99998pt too wide) in alignment at lines 409--409
  [] [] [] [] 
  []
 
@@ -1295,19 +1298,19 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 26514 strings out of 492982
- 472679 string characters out of 6134897
- 611759 words of memory out of 5000000
+ 26515 strings out of 492982
+ 472690 string characters out of 6134897
+ 609759 words of memory out of 5000000
  29534 multiletter control sequences out of 15000+600000
- 576226 words of font info for 201 fonts, out of 8000000 for 9000
+ 576544 words of font info for 205 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,13n,60p,10409b,1017s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (13 pages, 91904 bytes).
+Output written on main.pdf (13 pages, 92664 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
  40129 words of extra memory for PDF output out of 42996 (max. 10000000)
 
