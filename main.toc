@@ -1,25 +1,26 @@
 \babel@toc {spanish}{}
 \contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}{section.1}
 \contentsline {section}{\numberline {2}Justificaci\IeC {\'o}n}{2}{section.2}
-\contentsline {section}{\numberline {3}Objetivos}{2}{section.3}
-\contentsline {subsection}{Objetivo General}{2}{section*.3}
-\contentsline {subsection}{Objetivos Espec\IeC {\'\i }ficos}{2}{section*.4}
+\contentsline {section}{\numberline {3}Objetivos}{3}{section.3}
+\contentsline {subsection}{Objetivo General}{3}{section*.3}
+\contentsline {subsection}{Objetivos Espec\IeC {\'\i }ficos}{3}{section*.4}
 \contentsline {section}{\numberline {4}Trabajos Relacionados}{3}{section.4}
 \contentsline {subsection}{Software Comercial}{3}{section*.6}
 \contentsline {subsubsection}{SICAS}{3}{section*.7}
 \contentsline {subsubsection}{Insly}{3}{section*.8}
 \contentsline {subsubsection}{Asesorestic}{3}{section*.9}
 \contentsline {subsection}{Proyectos Terminales}{3}{section*.10}
-\contentsline {subsubsection}{Gesti\IeC {\'o}n de Informaci\IeC {\'o}n para el Manejo de Clientes de PyMEs CRM}{3}{section*.11}
-\contentsline {subsubsection}{Proyecto E-File}{3}{section*.12}
-\contentsline {subsubsection}{Proponer mejoras en el \IeC {\'a}rea de emisi\IeC {\'o}n de p\IeC {\'o}lizas de una aseguradora}{3}{section*.13}
+\contentsline {subsubsection}{Gesti\IeC {\'o}n de Informaci\IeC {\'o}n para el Manejo de Clientes de PyMEs CRM}{4}{section*.11}
+\contentsline {subsubsection}{Proyecto E-File}{4}{section*.12}
+\contentsline {subsubsection}{Proponer mejoras en el \IeC {\'a}rea de emisi\IeC {\'o}n de p\IeC {\'o}lizas de una aseguradora}{4}{section*.13}
 \contentsline {section}{\numberline {5}Descripci\IeC {\'o}n T\IeC {\'e}cnica}{4}{section.5}
-\contentsline {subsection}{Gestionar Clientes}{4}{section*.16}
+\contentsline {subsection}{Gestionar clientes}{4}{section*.16}
 \contentsline {subsection}{Gestionar p\IeC {\'o}lizas}{4}{section*.17}
-\contentsline {subsection}{Gestionar cobranza}{4}{section*.18}
-\contentsline {subsection}{Gestionar renovaciones}{5}{section*.19}
+\contentsline {subsection}{Gestionar cobranza}{6}{section*.18}
+\contentsline {subsection}{Gestionar renovaciones}{6}{section*.19}
 \contentsline {subsection}{Gestionar formatos}{6}{section*.20}
 \contentsline {subsection}{Gestionar comisiones}{6}{section*.21}
-\contentsline {section}{\numberline {6}Especificaci\IeC {\'o}n t\IeC {\'e}cnica}{6}{section.6}
+\contentsline {section}{\numberline {6}Especificaci\IeC {\'o}n t\IeC {\'e}cnica}{7}{section.6}
 \contentsline {section}{\numberline {7}Cronograma de actividades}{7}{section.7}
-\contentsline {section}{\numberline {8}Factibilidad}{9}{section.8}
+\contentsline {section}{\numberline {8}Factibilidad}{10}{section.8}
+\contentsline {section}{Referencias}{11}{section*.25}

@@ -13,6 +13,7 @@
 %Este archivo contiene los paquetes necesarios para construir el documento
 %Puedes agregar los que necesites.
 \include{preamble}
+\usepackage{caption}
 
 \begin{document}
 
@@ -20,6 +21,7 @@
     \include{declaration}%La declaratoria está en este archivo
     \input{proposal}%Escribe tu propuesta en este archivo
     
+    \addcontentsline{toc}{section}{Referencias}
     %Este archivo define el estilo IEEE de las referencias en español
     \small
     \bibliographystyle{IEEEtran}
