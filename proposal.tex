@@ -16,7 +16,7 @@ En este proyecto se propone automatizar dicha tarea mediante una aplicaci\'on pa
 
 \section{Justificación}
 
-No existe software libre dedicado al control de cartera que los agentes de seguros puedan utilizar para apoyar este aspecto del trabajo, por lo tanto, tienen que recurrir a sus propios métodos. La mayoría utiliza hojas de cálculo o un sistema de archivos, lo que hace el mantenimiento de cartera una tarea muy manual, misma que consume tiempo del agente.
+No existe software libre dedicado al control de cartera que los agentes de seguros puedan utilizar para este aspecto del trabajo, por lo tanto, tienen que recurrir a sus propios métodos. La mayoría utiliza hojas de cálculo o un sistema de archivos, lo que hace el mantenimiento de cartera una tarea muy manual, misma que consume tiempo del agente.
 Una aplicación para el Control de Cartera, como software libre, facilita la gestión de clientes, pólizas, cobranzas y renovaciones; lo cual tendría un impacto en la productividad del agente.
 
 \section{Objetivos}
@@ -26,7 +26,7 @@ Desarrollar un Sistema de Control de Cartera para agentes de seguros que disminu
 \addcontentsline{toc}{subsection}{Objetivos Específicos}
 \subsection*{Objetivos Específicos}
 \begin{enumerate}
-	\item Gestionar clientes, pólizas, cobranza, renovaciones.
+	\item Gestionar clientes, pólizas, cobranza y renovaciones.
 	\item Guardar documentos de los clientes y formatos de las aseguradoras.
 	\item Reportar proyecciones de comisiones.
 \end{enumerate}
@@ -37,7 +37,7 @@ Desarrollar un Sistema de Control de Cartera para agentes de seguros que disminu
 \addcontentsline{toc}{subsubsection}{SICAS}
 \subsubsection*{SICAS \cite{www:sicas}} 
 
-SICAS Online es un sistema WEB para el Control y Administración para Cartera de Agentes, Corredores, Promotores de Seguros\footnote{Director de una agencia. Una agencia o promotor\'ia es una oficina que agrupa a varios agentes.} y afines. Ayuda en todo el proceso de administración aumentando la productividad reduciendo la captura y reutilizando información.
+SICAS Online es un sistema Web para el Control y Administración para Cartera de Agentes, Corredores, Promotores de Seguros\footnote{Director de una agencia. Una agencia o promotor\'ia es una oficina que agrupa a varios agentes.} y afines. Ayuda en todo el proceso de administración aumentando la productividad reduciendo la captura y reutilizando información.
 
 \addcontentsline{toc}{subsubsection}{Insly}
 \subsubsection*{Insly \cite{www:insly}}
@@ -246,12 +246,11 @@ Adicionalmente se entregar\'an los artefactos elaborados (casos de uso de texto,
 
 \section{Cronograma de actividades}
 
-Las UEA's correspondientes a las actividades que se realizar\'an serán:
+La UEA correspondiente a las actividades que se realizar\'an ser\'a
 \begin{itemize}
 	\item 1100113 - Proyecto de Integración en Ingeniería en Computación I - 18 créditos.
-	\item 1100123 - Proyecto de Integración en Ingeniería en Computación II - 18 créditos.
 \end{itemize} 
- Este proyecto se completar\'a en un total de 396 horas. Las actividades se realizar\'an durante el lapso de los trimestres académicos 2018-Otoño y 2019-Invierno. El proyecto se realizará en una sucesión de iteraciones incrementales y evolutivas. Una iteración tiene una duración de 22 horas y est\'a compuesta por las siguientes actividades: 
+ Este proyecto se completar\'a en un total de 198 horas. Las actividades se realizar\'an durante el lapso del trimestre académico 2018 - Otoño y se muestran en la Tabla \ref{table:calendar}. Los módulos se realizarán en una sucesión de iteraciones incrementales y evolutivas. Una iteración tiene una duración de 22 horas y est\'a compuesta por las siguientes actividades: 
 \begin{enumerate}
 	\item Diseño (2 horas)
 	\subitem Casos de uso de texto.
@@ -265,187 +264,266 @@ Las UEA's correspondientes a las actividades que se realizar\'an serán:
 	\subitem Recolección de correcciones para la siguiente iteración.
 \end{enumerate}
 
-Se realizarán 2 o 3 iteraciones por cada uno de los apartados en la descripción técnica. Cada iteración se concentrará en un subconjunto de funcionalidades de los objetivos específicos. 
-Las actividades para el trimestre 2018-O y 2019-I se muestran en la Tabla \ref{table:calendar}
-
 %=================
 % para alinear vertical y horizontalmente columnas de iteracion y horas 
 % ==============NO FUNCIONA
 \newcounter{iteracion}
 \newcommand\rownumber{\stepcounter{iteracion}\arabic{iteracion}}
 
-\newcolumntype{C}{>{\centering\arraybackslash}m{0.1\textwidth} }  %# New column type
+%\newcolumntype{C}{>{\centering\arraybackslash}m{0.1\textwidth} }  %# New column type
 
 %=================
 
 \begin{longtabu} to \textwidth{
 		X[3,c] X[1,c] X[3,c]}
-	%\caption{Calendario de actividades para el trimestre 2018 Primavera y 2018 Otoño}
-	%\label{table:calendar}
 	\toprule
-	\textbf{Actividad} & \textbf{Actividad} & \textbf{Horas} & \textbf{Producto} \\
+	\textbf{Actividad} & \textbf{Horas} & \textbf{Producto} \\
 	\hline
 	\endfirsthead
 	\hline
-	\multicolumn{2}{c}{\textbf{Iteración}} & \multicolumn{2}{c}{\textbf{Actividad}} \\
+	\textbf{Actividad} & \textbf{Horas} & \textbf{Producto} \\
 	\hline
 	\endhead
 	\hline
 	\endfoot
 	\hline
-	\multicolumn{4}{c}{\textbf{Total: 396 hrs}} \\
+	\textbf{Total:} & \textbf{198} & \\
 	\hline
-	\caption{Calendario de actividades}
+	\caption{Calendario de actividades para el trimestre 2018 Otoño}
 	\label{table:calendar}
 	\endlastfoot
 	
-	
-\end{longtabu}
-
-%==============
-%\begin{table}[h!]
-	\begin{longtabu} to \textwidth{
-			X[1,c] X[4,c] X[1,c] X[4,c] }
-		%\caption{Calendario de actividades para el trimestre 2018 Primavera y 2018 Otoño}
-		%\label{table:calendar}
-		\toprule
-		\textbf{Iteración} & \textbf{Actividad} & \textbf{Horas} & \textbf{Producto} \\
-		\hline
-		\endfirsthead
-		\hline
-		\multicolumn{2}{c}{\textbf{Iteración}} & \multicolumn{2}{c}{\textbf{Actividad}} \\
-		\hline
-		\endhead
-		\hline
-		\endfoot
-		\hline
-		\multicolumn{4}{c}{\textbf{Total: 396 hrs}} \\
-		\hline
-		\caption{Calendario de actividades}
-		\label{table:calendar2}
-		\endlastfoot
-		
-		\rownumber & 
 	\begin{itemize}
 		\item Análisis de requerimientos.
 		\item Identificar casos de uso.
 		\item Requerimientos funcionales y no funcionales.
 		\item Glosario.
 	\end{itemize} & 22 &
-\begin{itemize}
-	\item Diagrama de casos de uso.
-	\item Glosario.
-\end{itemize} \\
+	\begin{itemize}
+		\item Diagrama de casos de uso.
+		\item Glosario.
+	\end{itemize} \\ \midrule
 
-\midrule
+	\begin{itemize}
+		\item Diagrama del dominio.
+		\item Diseño de la base de datos.
+		\item Diseño del modelo.
+		\item Diseño de la arquitectura.
+		\item Creación de casos de uso de texto casuales para los requerimientos principales.
+	\end{itemize} & 22 &
+	\begin{itemize}
+		\item Diagrama del dominio.
+		\item Esquema de la base de datos.
+		\item Diagrama del modelo.
+		\item Diagrama de paquetes.
+		\item Casos de uso de texto.
+	\end{itemize} \\ \midrule
 
-\rownumber & 
-\begin{itemize}
-	\item Diagrama del dominio.
-	\item Diseño de la base de datos.
-	\item Diseño del modelo.
-	\item Diseño de la arquitectura.
-	\item Creación de casos de uso de texto casuales para los requerimientos principales.
-\end{itemize} & 22 &
-\begin{itemize}
-	\item Diagrama del dominio.
-	\item Esquema de la base de datos.
-	\item Diagrama del modelo.
-	\item Diagrama de paquetes.
-	\item Casos de uso de texto.
-\end{itemize} \\
+	\begin{itemize}
+		\item  Elaboraci\'on del modulo Gestionar Clientes.
+	\end{itemize} & 22 &
+	\begin{itemize}
+		\item Diagrama de clases.
+		\item Código de producci\'on.
+	\end{itemize} \\ \midrule
 
-\midrule
-\multicolumn{2}{c}{\textbf{Iteración}} & \multicolumn{2}{c}{\textbf{Actividad}} \\
+	\begin{itemize}
+		\item  Elaboraci\'on del modulo Gestionar Pólizas.
+	\end{itemize} & 22 &
+	\begin{itemize}
+		\item Diagrama de clases.
+		\item Código de producci\'on.
+	\end{itemize} \\ \midrule
 
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
+	\begin{itemize}
+		\item  Elaboraci\'on del modulo Gestionar Formatos.
+	\end{itemize} & 22 &
+	\begin{itemize}
+		\item Diagrama de clases.
+		\item Código de producci\'on.
+	\end{itemize} \\ \midrule
 
-\midrule
-\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Registrar}  \\
-& & \multicolumn{2}{c}{Editar} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Pólizas}} \\
-
-\midrule
-\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Registrar}  \\
-& & \multicolumn{2}{c}{Mostrar} \\
-
-\midrule
-\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Editar}  \\
-& & \multicolumn{2}{c}{Borrar} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Formatos}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Registrar} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar póliza} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar documentos} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Cobranza}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar pendiente} \\
-
-\midrule
-\multicolumn{2}{c}{\multirow{3}{1em}{\rownumber}} & \multicolumn{2}{c}{Actualizar}  \\
-& & \multicolumn{2}{c}{Mostrar cobrada} \\
-& & \multicolumn{2}{c}{Mostrar vencida} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Renovación}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar pendientes} \\
+	\begin{itemize}
+		\item  Elaboraci\'on del modulo Gestionar Cobranza.
+	\end{itemize} & 22 &
+	\begin{itemize}
+		\item Diagrama de clases.
+		\item Código de producci\'on.
+	\end{itemize} \\ \midrule
 	
-\midrule
-\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Actualizar}  \\
-& & \multicolumn{2}{c}{Mostrar vencidas} \\
+	\begin{itemize}
+		\item  Elaboraci\'on del modulo Gestionar Renovaciones.
+	\end{itemize} & 22 &
+	\begin{itemize}
+		\item Diagrama de clases.
+		\item Código de producci\'on.
+	\end{itemize} \\ \midrule
 
+	\begin{itemize}
+		\item  Elaboraci\'on del modulo Reporte de comisiones.
+	\end{itemize} & 22 &
+	\begin{itemize}
+		\item Diagrama de clases.
+		\item Código de producci\'on.
+	\end{itemize} \\ \midrule
 
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Notificación de cumpleaños} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Renovación}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Enviar notificación} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Gestionar Formatos}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Enviar} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Comisiones}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar proyecciones} \\
-
-\midrule
-\multicolumn{4}{c}{\textbf{Finalización}} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Testear sistema} \\
-
-\midrule
-\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Despliegue} \\
+	\begin{itemize}
+		\item Elaboración de manual de usuario.
+		\item Elaboraci\'on del reporte final.
+		\item Empaquetamiento de la aplicación.
+	\end{itemize} & 22 &
+	\begin{itemize}
+		\item Aplicación finalizada.
+		\item Reporte final.
+		\item Manual de usuario.	
+	\end{itemize}
 \end{longtabu}
+
+%
+%==============
+%\begin{table}[h!]
+%	\begin{longtabu} to \textwidth{
+%			X[1,c] X[4,c] X[1,c] X[4,c] }
+%		\caption{Calendario de actividades para el trimestre 2018 Primavera y 2018 Otoño}
+%		\label{table:calendar}
+%		\toprule
+%		\textbf{Iteración} & \textbf{Actividad} & \textbf{Horas} & \textbf{Producto} \\
+%		\hline
+%		\endfirsthead
+%		\hline
+%		\multicolumn{2}{c}{\textbf{Iteración}} & \multicolumn{2}{c}{\textbf{Actividad}} \\
+%		\hline
+%		\endhead
+%		\hline
+%		\endfoot
+%		\hline
+%		\multicolumn{4}{c}{\textbf{Total: 396 hrs}} \\
+%		\hline
+%		\caption{Calendario de actividades}
+%		\label{table:calendar2}
+%		\endlastfoot
+%		
+%		\rownumber & 
+%	\begin{itemize}
+%		\item Análisis de requerimientos.
+%		\item Identificar casos de uso.
+%		\item Requerimientos funcionales y no funcionales.
+%		\item Glosario.
+%	\end{itemize} & 22 &
+%\begin{itemize}
+%	\item Diagrama de casos de uso.
+%	\item Glosario.
+%\end{itemize} \\
+%
+%\midrule
+%
+%\rownumber & 
+%\begin{itemize}
+%	\item Diagrama del dominio.
+%	\item Diseño de la base de datos.
+%	\item Diseño del modelo.
+%	\item Diseño de la arquitectura.
+%	\item Creación de casos de uso de texto casuales para los requerimientos principales.
+%\end{itemize} & 22 &
+%\begin{itemize}
+%	\item Diagrama del dominio.
+%	\item Esquema de la base de datos.
+%	\item Diagrama del modelo.
+%	\item Diagrama de paquetes.
+%	\item Casos de uso de texto.
+%\end{itemize} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\textbf{Iteración}} & \multicolumn{2}{c}{\textbf{Actividad}} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Registrar}  \\
+%& & \multicolumn{2}{c}{Editar} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Pólizas}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Registrar}  \\
+%& & \multicolumn{2}{c}{Mostrar} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Editar}  \\
+%& & \multicolumn{2}{c}{Borrar} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Formatos}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Registrar} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar póliza} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar documentos} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Cobranza}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar pendiente} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\multirow{3}{1em}{\rownumber}} & \multicolumn{2}{c}{Actualizar}  \\
+%& & \multicolumn{2}{c}{Mostrar cobrada} \\
+%& & \multicolumn{2}{c}{Mostrar vencida} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Renovación}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar pendientes} \\
+%	
+%\midrule
+%\multicolumn{2}{c}{\multirow{2}{1em}{\rownumber}} & \multicolumn{2}{c}{Actualizar}  \\
+%& & \multicolumn{2}{c}{Mostrar vencidas} \\
+%
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Cliente}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Notificación de cumpleaños} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Renovación}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Enviar notificación} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Gestionar Formatos}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Enviar} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Comisiones}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Mostrar proyecciones} \\
+%
+%\midrule
+%\multicolumn{4}{c}{\textbf{Finalización}} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Testear sistema} \\
+%
+%\midrule
+%\multicolumn{2}{c}{\rownumber} & \multicolumn{2}{c}{Despliegue} \\
+%\end{longtabu}
 
 
 \section{Factibilidad}
@@ -469,7 +547,7 @@ Estimación de costos mensuales:
 
 El costo total por los dos trimestres de duración del proyecto es de \$84,780 pesos.
 
-\newpage
+%\newpage
 %\subsection*{Párrafo obligatorio}
 El asesor se responsabiliza de guiar al alumno y de que todos los recursos mencionados en la factibilidad técnica estarán disponibles para el alumno, de modo que el proyecto
 de integración se pueda concluir en tiempo y forma.\\[2cm]
